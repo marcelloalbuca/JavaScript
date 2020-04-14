@@ -34,11 +34,11 @@ var frutas = [{nome:"maça", cor:"vermelha"}, {nome:"uva", cor:"roxa"}];
 console.log(frutas);
 console.log(frutas[1].nome)
 
-var idade = 18;
-
+//var idade = 18; 
+var idade = prompt("Qual sua idade");
 if(idade >= 18)
 {
-    console.log("Maior de  idade");
+    console.log("Maior de idade");
 }
 else
 {
