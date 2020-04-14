@@ -9,3 +9,6 @@ console.log(frase);
 console.log(frase.replace("Japão", "Brasil"));
 console.log(frase.toUpperCase());
 console.log(frase.toLowerCase());
+
+var lista = ["maça", "pêra", "laranja"];
+console.log(lista);
