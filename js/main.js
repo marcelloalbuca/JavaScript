@@ -25,3 +25,7 @@ console.log(lista.reverse());
 console.log(lista.toString());
 
 console.log(lista.join(" - "));
+
+var fruta = {nome:"maça", cor:"vermelha"};
+console.log(fruta);
+console.log(fruta.nome);
