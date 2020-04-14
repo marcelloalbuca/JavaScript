@@ -33,3 +33,23 @@ console.log(fruta.nome);
 var frutas = [{nome:"maça", cor:"vermelha"}, {nome:"uva", cor:"roxa"}];
 console.log(frutas);
 console.log(frutas[1].nome)
+
+var idade = 18;
+
+if(idade >= 18)
+{
+    console.log("Maior de  idade");
+}
+else
+{
+    console.log("Menor de idade");
+}
+
+
+
+
+
+
+
+
+
