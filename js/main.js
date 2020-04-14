@@ -11,4 +11,5 @@ console.log(frase.toUpperCase());
 console.log(frase.toLowerCase());
 
 var lista = ["maça", "pêra", "laranja"];
+lista.push("uva");
 console.log(lista);
