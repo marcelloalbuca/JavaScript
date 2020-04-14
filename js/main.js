@@ -29,3 +29,7 @@ console.log(lista.join(" - "));
 var fruta = {nome:"maça", cor:"vermelha"};
 console.log(fruta);
 console.log(fruta.nome);
+
+var frutas = [{nome:"maça", cor:"vermelha"}, {nome:"uva", cor:"roxa"}];
+console.log(frutas);
+console.log(frutas[1].nome)
