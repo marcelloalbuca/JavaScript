@@ -7,3 +7,4 @@ alert(nome + " tem " + idade + " anos");
 console.log(nome);
 console.log(frase);
 console.log(frase.replace("Japão", "Brasil"));
+console.log(frase.toUpperCase());
