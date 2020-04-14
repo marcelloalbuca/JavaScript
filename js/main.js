@@ -19,3 +19,6 @@ console.log(lista);
 console.log(lista[1]);
 
 console.log(lista.length);
+
+console.log(lista.reverse());
+
