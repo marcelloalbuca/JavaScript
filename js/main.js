@@ -61,6 +61,13 @@ for (count = 0; count <= 5; count++)
 
 var d = new Date();
 console.log(d);
+console.log(d.getMonth()+1);
+console.log(d.getMinutes());
+console.log(d.getDay());
+console.log(d.getHours());
+
+
+
 
 
 
