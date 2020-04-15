@@ -92,10 +92,32 @@ function validaIdade(idade)
 var idade = 19;
 console.log(validaIdade(idade));
 
+function clicando(){
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigado!!</b>";
+    console.log(document.getElementById("agradecimento"));
+    //alert("Obrigado!");
+}
 
+function redirecionar(){
+    window.open("https://www.google.com/");
+    //window.location.href = "https://www.google.com/";
+}
 
+function trocar(elemento){
+    elemento.innerHTML = "Obrigado!";
+    //document.getElementById("mousemove").innerHTML = "Obrigado!";
+    //alert("trocar");
+}
 
+function voltar(elemento){
+    elemento.innerHTML = "Passe o mouse!";
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse!";
+}
 
+function load(){
+    alert("Bem - Vindo!");
+}
 
-
-
+function funcaoChange(elemento){
+    console.log(elemento.value);
+}
