@@ -35,7 +35,7 @@ console.log(frutas);
 console.log(frutas[1].nome)
 
 //var idade = 18; 
-var idade = prompt("Qual sua idade");
+//var idade = prompt("Qual sua idade");
 if(idade >= 18)
 {
     console.log("Maior de idade");
@@ -45,6 +45,19 @@ else
     console.log("Menor de idade");
 }
 
+var count = 0;
+while (count <= 2)
+{
+    console.log(count);
+    count++;
+};
+
+var count;
+
+for (count = 0; count <= 5; count++)
+{
+    console.log(count);
+}
 
 
 
