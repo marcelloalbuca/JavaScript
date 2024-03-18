@@ -121,3 +121,35 @@ function load(){
 function funcaoChange(elemento){
     console.log(elemento.value);
 }
+
+
+umDia.toGMTString();
+
+getSeconds();
+
+getTime();
+
+getTimezoneoffset() //number recupera a diferença em minutos entre a data no fuso horário local e GMT 
+
+getYear()
+
+setDate()
+
+setHours()
+
+setMonth()
+
+setTime()
+
+setYear()
+
+toGMTString() // String, converte uma data em uma represetação GMT
+
+toLocaleString() // String, converte a data na representação local do sistema
+
+
+
+
+
+
+
